@@ -12,7 +12,7 @@
         document.body.classList.toggle("light-mode");
     });
     document.querySelector(".git").onclick = function () {
-        url = "https://axeroldz.github.io";
+        url = "https://github.com/axeroldz/Portfolio";
         window.open(url, "_blank");
     };
 })();
