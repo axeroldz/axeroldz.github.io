@@ -392,6 +392,7 @@ section {
 }
 .main-btn .btn-text {
   padding: 0 2rem;
+  cursor: pointer;
 }
 .btn-con .main-btn .btn-icon {
   width:40px;
@@ -688,4 +689,5 @@ section {
   .main-title h2 .bg-text {
     font-size: 4rem;
   }
+ 
 }

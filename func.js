@@ -18,4 +18,5 @@
     document.querySelector("#submit").addEventListener("click", () => {
         document.getElementById("input-form").submit();
     });
+    
 })();
