@@ -15,4 +15,7 @@
         url = "https://github.com/axeroldz/Portfolio";
         window.open(url, "_blank");
     };
+    document.querySelector("#submit").addEventListener("click", () => {
+        document.getElementById("input-form").submit();
+    });
 })();
