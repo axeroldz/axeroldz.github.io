@@ -26,11 +26,15 @@
                     SEになる事が目標であり、その過程の中でフルスタックエンジニアを目指しています。前まではバックエンドを
                     主に学んで2022年の春からはフロントエンドを学び始めています。
                 </p>
-                <div class="btn-con">
-                    <a class="main-btn">
-                        <span class="btn-text">ダウンロード CV</span>
-                        <span class="btn-icon"><img class="btn-icon" src="Styles/images/download.png"></span>
-                    </a>
+                <div class="download">
+                    <div class="popuptext" id="popup2">未実装です。。。</div>
+                    <div class="btn-con">
+                        <a class="main-btn" id="download2">
+                            <span class="btn-text">ダウンロード CV</span>
+                            <span class="btn-icon"><img alt="download" class="btn-icon"
+                                    src="Styles/images/download.png"></span>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -50,69 +54,73 @@
                         5月にポートフォリオサイトを制作し、夏休みには大学の
                         レポート管理サイトの拡張機能を開発しました。
                     </p>
-                    <div class="btn-con">
-                        <a href="#" class="main-btn">
-                            <span class="btn-text">ダウンロード CV</span>
-                            <span class="btn-icon"><img class="btn-icon" src="Styles/images/download.png"></span>
-                        </a>
+                    <div class="download">
+                        <div class="popuptext" id="popup1">未実装です。。。</div>
+                        <div class="btn-con">
+                            <a class="main-btn" id="download1">
+                                <span class="btn-text">ダウンロード CV</span>
+                                <span class="btn-icon"><img alt="download" class="btn-icon"
+                                        src="Styles/images/download.png"></span>
+                            </a>
+                        </div>
                     </div>
-                </div>
 
-            </div>
-            <div class="about-stats">
-                <h4 class="stat-title">スキル</h4>
-                <div class="progress-bars">
-                    <div class="progress-bar">
-                        <p class="prog-title">html</p>
-                        <div class="progress-con">
-                            <p class="prog-text">70%</p>
-                            <div class="progress">
-                                <span class="html"></span>
+                </div>
+                <div class="about-stats">
+                    <h4 class="stat-title">スキル</h4>
+                    <div class="progress-bars">
+                        <div class="progress-bar">
+                            <p class="prog-title">html</p>
+                            <div class="progress-con">
+                                <p class="prog-text">70%</p>
+                                <div class="progress">
+                                    <span class="html"></span>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="progress-bar">
-                        <p class="prog-title">css</p>
-                        <div class="progress-con">
-                            <p class="prog-text">55%</p>
-                            <div class="progress">
-                                <span class="css"></span>
+                        <div class="progress-bar">
+                            <p class="prog-title">css</p>
+                            <div class="progress-con">
+                                <p class="prog-text">55%</p>
+                                <div class="progress">
+                                    <span class="css"></span>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="progress-bar">
-                        <p class="prog-title">javascript</p>
-                        <div class="progress-con">
-                            <p class="prog-text">80%</p>
-                            <div class="progress">
-                                <span class="js"></span>
+                        <div class="progress-bar">
+                            <p class="prog-title">javascript</p>
+                            <div class="progress-con">
+                                <p class="prog-text">80%</p>
+                                <div class="progress">
+                                    <span class="js"></span>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="progress-bar">
-                        <p class="prog-title">Java</p>
-                        <div class="progress-con">
-                            <p class="prog-text">85%</p>
-                            <div class="progress">
-                                <span class="java"></span>
+                        <div class="progress-bar">
+                            <p class="prog-title">Java</p>
+                            <div class="progress-con">
+                                <p class="prog-text">85%</p>
+                                <div class="progress">
+                                    <span class="java"></span>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="progress-bar">
-                        <p class="prog-title">C</p>
-                        <div class="progress-con">
-                            <p class="prog-text">50%</p>
-                            <div class="progress">
-                                <span class="c"></span>
+                        <div class="progress-bar">
+                            <p class="prog-title">C</p>
+                            <div class="progress-con">
+                                <p class="prog-text">50%</p>
+                                <div class="progress">
+                                    <span class="c"></span>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="progress-bar">
-                        <p class="prog-title">Python</p>
-                        <div class="progress-con">
-                            <p class="prog-text">70%</p>
-                            <div class="progress">
-                                <span class="python"></span>
+                        <div class="progress-bar">
+                            <p class="prog-title">Python</p>
+                            <div class="progress-con">
+                                <p class="prog-text">70%</p>
+                                <div class="progress">
+                                    <span class="python"></span>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -185,13 +193,13 @@
                                 <input type="text" name="Title" required placeholder="件名">
                             </div>
                             <div class="input-control">
-                                <textarea name="Message" id="" cols="15" rows="8" placeholder="メッセージ。。"></textarea>
+                                <textarea name="Message" cols="15" rows="8" placeholder="メッセージ。。"></textarea>
                             </div>
                             <div class="submit-btn">
                                 <div class="btn-con">
                                     <a href="#" class="main-btn" id="submit">
                                         <span class="btn-text">Send</span>
-                                        <span class="btn-icon"><img class="btn-icon"
+                                        <span class="btn-icon"><img alt="Send" class="btn-icon"
                                                 src="Styles/images/send.png"></span>
                                     </a>
                                 </div>

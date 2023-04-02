@@ -18,5 +18,11 @@
     document.querySelector("#submit").addEventListener("click", () => {
         document.getElementById("input-form").submit();
     });
+    document.querySelector("#download1").addEventListener("click", () => {
+        document.querySelector('#popup1').classList.toggle("show");
+    });
+    document.querySelector("#download2").addEventListener("click", () => {
+        document.querySelector('#popup2').classList.toggle("show");
+    });
     
 })();
